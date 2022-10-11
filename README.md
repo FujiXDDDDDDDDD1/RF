@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Fu Kang Hub V2", "BloodTheme")
+local Window = Library.CreateLib("Fu Kang Hub", "BloodTheme")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("ESP")
 Section:NewButton("Monsters", ".", function()
